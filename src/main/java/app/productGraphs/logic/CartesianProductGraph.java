@@ -1,5 +1,6 @@
-package app.myClass;
+package app.productGraphs.logic;
 
+import app.productGraphs.model.Edge;
 import lombok.Getter;
 
 import java.io.FileWriter;

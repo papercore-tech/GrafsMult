@@ -1,12 +1,18 @@
 package app;
 
-import app.myClass.CartesianProductGraph;
-import app.myClass.Edge;
+import app.codePreufer.logic.Preufer;
+import app.codePreufer.manager.ConfigLoader;
+import app.productGraphs.logic.CartesianProductGraph;
+import app.productGraphs.model.Edge;
 
 import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
+        preufere();
+    }
+
+    private static void productCalc() {
         // Вершины графов G1 и G2
         String[] verticesG1 = {"1_A", "2_A", "3_A", "4_A", "5_A"};
         String[] verticesG2 = {"1_B", "2_B", "3_B", "4_B", "5_B"};
@@ -30,5 +36,15 @@ public class Main {
 
         // Экспорт в формат GraphML
         cartesianGraph.exportToGraphML("cartesian_product_graph.graphml");
+    }
+
+    private static void preufere() {
+        ConfigLoader configLoader = new ConfigLoader();
+        String preuferCode = configLoader.loadConfig("preufere");
+
+        Preufer tree = new Preufer(preuferCode);
+        tree.buildTree();
+        tree.printAdjacencyList();
+
     }
 }

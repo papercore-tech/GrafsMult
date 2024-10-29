@@ -1,7 +1,7 @@
 package test;
 
-import app.myClass.CartesianProductGraph;
-import app.myClass.Edge;
+import app.productGraphs.logic.CartesianProductGraph;
+import app.productGraphs.model.Edge;
 import org.junit.jupiter.api.Test;
 
 import java.util.Set;

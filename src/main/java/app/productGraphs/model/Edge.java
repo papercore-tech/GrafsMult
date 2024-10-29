@@ -1,4 +1,4 @@
-package app.myClass;
+package app.productGraphs.model;
 
 public record Edge(String start, String end) {
 
