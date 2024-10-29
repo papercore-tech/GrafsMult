@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph id="G" edgedefault="undirected">
+    <node id="1_A_5_B"/>
+    <node id="1_A_2_B"/>
+    <node id="1_A_1_B"/>
+    <node id="1_A_4_B"/>
+    <node id="1_A_3_B"/>
+    <node id="4_A_1_B"/>
+    <node id="4_A_2_B"/>
+    <node id="4_A_3_B"/>
+    <node id="4_A_4_B"/>
+    <node id="4_A_5_B"/>
+    <node id="3_A_1_B"/>
+    <node id="3_A_2_B"/>
+    <node id="3_A_5_B"/>
+    <node id="3_A_3_B"/>
+    <node id="3_A_4_B"/>
+    <node id="5_A_3_B"/>
+    <node id="5_A_4_B"/>
+    <node id="5_A_1_B"/>
+    <node id="5_A_2_B"/>
+    <node id="5_A_5_B"/>
+    <node id="2_A_3_B"/>
+    <node id="2_A_2_B"/>
+    <node id="2_A_1_B"/>
+    <node id="2_A_5_B"/>
+    <node id="2_A_4_B"/>
+    <edge id="e1" source="2_A_1_B" target="3_A_1_B"/>
+    <edge id="e2" source="2_A_5_B" target="3_A_5_B"/>
+    <edge id="e3" source="3_A_3_B" target="3_A_4_B"/>
+    <edge id="e4" source="3_A_1_B" target="3_A_5_B"/>
+    <edge id="e5" source="1_A_5_B" target="1_A_4_B"/>
+    <edge id="e6" source="2_A_2_B" target="4_A_2_B"/>
+    <edge id="e7" source="1_A_3_B" target="5_A_3_B"/>
+    <edge id="e8" source="3_A_2_B" target="4_A_2_B"/>
+    <edge id="e9" source="4_A_5_B" target="4_A_4_B"/>
+    <edge id="e10" source="5_A_1_B" target="5_A_2_B"/>
+    <edge id="e11" source="5_A_2_B" target="3_A_2_B"/>
+    <edge id="e12" source="1_A_3_B" target="2_A_3_B"/>
+    <edge id="e13" source="2_A_1_B" target="2_A_2_B"/>
+    <edge id="e14" source="2_A_4_B" target="3_A_4_B"/>
+    <edge id="e15" source="2_A_5_B" target="2_A_4_B"/>
+    <edge id="e16" source="3_A_1_B" target="4_A_1_B"/>
+    <edge id="e17" source="3_A_5_B" target="4_A_5_B"/>
+    <edge id="e18" source="1_A_4_B" target="5_A_4_B"/>
+    <edge id="e19" source="2_A_3_B" target="4_A_3_B"/>
+    <edge id="e20" source="4_A_1_B" target="4_A_2_B"/>
+    <edge id="e21" source="1_A_1_B" target="1_A_5_B"/>
+    <edge id="e22" source="5_A_2_B" target="5_A_5_B"/>
+    <edge id="e23" source="5_A_2_B" target="5_A_3_B"/>
+    <edge id="e24" source="1_A_3_B" target="1_A_4_B"/>
+    <edge id="e25" source="5_A_3_B" target="3_A_3_B"/>
+    <edge id="e26" source="3_A_5_B" target="3_A_4_B"/>
+    <edge id="e27" source="1_A_4_B" target="2_A_4_B"/>
+    <edge id="e28" source="2_A_3_B" target="3_A_3_B"/>
+    <edge id="e29" source="3_A_1_B" target="3_A_2_B"/>
+    <edge id="e30" source="4_A_2_B" target="4_A_5_B"/>
+    <edge id="e31" source="1_A_1_B" target="5_A_1_B"/>
+    <edge id="e32" source="3_A_4_B" target="4_A_4_B"/>
+    <edge id="e33" source="4_A_2_B" target="4_A_3_B"/>
+    <edge id="e34" source="2_A_4_B" target="4_A_4_B"/>
+    <edge id="e35" source="1_A_5_B" target="5_A_5_B"/>
+    <edge id="e36" source="5_A_3_B" target="5_A_4_B"/>
+    <edge id="e37" source="1_A_2_B" target="1_A_3_B"/>
+    <edge id="e38" source="1_A_2_B" target="1_A_5_B"/>
+    <edge id="e39" source="5_A_1_B" target="5_A_5_B"/>
+    <edge id="e40" source="2_A_1_B" target="2_A_5_B"/>
+    <edge id="e41" source="5_A_4_B" target="3_A_4_B"/>
+    <edge id="e42" source="1_A_1_B" target="2_A_1_B"/>
+    <edge id="e43" source="2_A_3_B" target="2_A_4_B"/>
+    <edge id="e44" source="1_A_5_B" target="2_A_5_B"/>
+    <edge id="e45" source="3_A_2_B" target="3_A_5_B"/>
+    <edge id="e46" source="3_A_2_B" target="3_A_3_B"/>
+    <edge id="e47" source="2_A_2_B" target="3_A_2_B"/>
+    <edge id="e48" source="2_A_5_B" target="4_A_5_B"/>
+    <edge id="e49" source="2_A_1_B" target="4_A_1_B"/>
+    <edge id="e50" source="1_A_2_B" target="5_A_2_B"/>
+    <edge id="e51" source="4_A_3_B" target="4_A_4_B"/>
+    <edge id="e52" source="3_A_3_B" target="4_A_3_B"/>
+    <edge id="e53" source="5_A_5_B" target="5_A_4_B"/>
+    <edge id="e54" source="4_A_1_B" target="4_A_5_B"/>
+    <edge id="e55" source="1_A_1_B" target="1_A_2_B"/>
+    <edge id="e56" source="5_A_5_B" target="3_A_5_B"/>
+    <edge id="e57" source="1_A_2_B" target="2_A_2_B"/>
+    <edge id="e58" source="5_A_1_B" target="3_A_1_B"/>
+    <edge id="e59" source="2_A_2_B" target="2_A_3_B"/>
+    <edge id="e60" source="2_A_2_B" target="2_A_5_B"/>
+  </graph>
+</graphml>
